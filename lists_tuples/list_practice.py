@@ -66,6 +66,7 @@ print(f'slice and skip items(skips 2):\n{sliced_skip}')
 
 # copy list
 duplicate_dogs = dogs[:]
+copied_dogs = dogs.copy()
 print(f'this list is duplicated:\n{duplicate_dogs}')
 
 # list operations
@@ -78,16 +79,6 @@ print(f'extended adds new list to end of list:\n{cats}')
 print(f'largest item:\t{max(cats)}')
 print(f'length of list:\t{len(cats)}')
 print(f'count of items:\t{cats.count("wild cat")}')
-
-# tuples are immutable lists
-t = (3,5)
-print(t)
-
-# t[0] = 4
-# TypeError: 'tuple' object does not support item assignment
-# to change tuple reassign variable
-t = (5,9,7)
-print(f'reasigned list:\n{t}')
 
 # convert string to list
 fl = 'county'
@@ -116,3 +107,7 @@ if a is b:
 b[0] = 'sesh'
 print(f'list a also changes, multiple referencing:\n{a}')
 # always make list copies to avoid aliasing errors
+
+# clear list items
+cats.clear()
+print(cats)
