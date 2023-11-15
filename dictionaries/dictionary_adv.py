@@ -31,3 +31,7 @@ print(song_counts)
 # clear items
 song_counts.clear()
 print(song_counts)
+
+# passin a list of keys and an initial value for all of the values (the default is None):
+value_o = dict.fromkeys(['a', 'b'], 0)
+print(value_o)
