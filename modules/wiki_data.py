@@ -1,5 +1,6 @@
 import wikipedia
 
+
 def wiki_save(prompt):
     # Get Wikipedia page content based on the prompt
     content = wikipedia.page(prompt)
@@ -15,3 +16,6 @@ def wiki_save(prompt):
 
     print(f"Content has been written to {file_path}")
 
+
+prompt = input('What do you want to know?')
+wiki_save(prompt)
