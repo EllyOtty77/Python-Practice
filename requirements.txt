@@ -1,3 +1,5 @@
 PyPDF2
 wikipedia
 sty
+nbconvert
+pyppeteer

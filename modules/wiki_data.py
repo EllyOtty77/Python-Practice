@@ -17,5 +17,5 @@ def wiki_save(prompt):
     print(f"Content has been written to {file_path}")
 
 
-prompt = input('What do you want to know?')
+prompt = 'Ethics'
 wiki_save(prompt)
