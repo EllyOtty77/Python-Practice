@@ -1,2 +1,2 @@
 # Python refresher
- projects for concepts & understanding 
+ Notes, syntax, advanced topics and sample projects 
